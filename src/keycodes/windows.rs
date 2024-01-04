@@ -223,7 +223,31 @@ decl_keycodes! {
     Help, 0x2F, 0x0000,
     Sleep, 0x5F, 0x0000,
     Separator, 0x6C, 0x0000,
-    Pause, 19, 0x0000
+    Pause, 19, 0x0000,
+    GamepadA, 195, 0x0000,
+    GamepadB, 196, 0x0000,
+    GamepadDPadDown, 204, 0x0000,
+    GamepadDPadLeft, 205, 0x0000,
+    GamepadDPadRight, 206, 0x0000,
+    GamepadDPadUp, 203, 0x0000,
+    GamepadLeftShoulder, 200, 0x0000,
+    GamepadLeftThumbstickButton, 209, 0x0000,
+    GamepadLeftThumbstickDown, 212, 0x0000,
+    GamepadLeftThumbstickLeft, 214, 0x0000,
+    GamepadLeftThumbstickRight, 213, 0x0000,
+    GamepadLeftThumbstickUp, 211, 0x0000,
+    GamepadLeftTrigger, 201, 0x0000,
+    GamepadMenu, 207, 0x0000,
+    GamepadRightShoulder, 199, 0x0000,
+    GamepadRightThumbstickButton, 210, 0x0000,
+    GamepadRightThumbstickDown, 216, 0x0000,
+    GamepadRightThumbstickLeft, 218, 0x0000,
+    GamepadRightThumbstickRight, 217, 0x0000,
+    GamepadRightThumbstickUp, 215, 0x0000,
+    GamepadRightTrigger, 202, 0x0000,
+    GamepadView, 208, 0x0000,
+    GamepadX, 197, 0x0000,
+    GamepadY, 198, 0x0000
 }
 
 #[cfg(test)]

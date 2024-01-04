@@ -262,6 +262,54 @@ pub enum Key {
     Separator,
     Unknown(u32),
     RawKey(RawKey),
+    #[cfg(target_os = "windows")]
+    GamepadA,
+    #[cfg(target_os = "windows")]
+    GamepadB, 
+    #[cfg(target_os = "windows")]
+    GamepadDPadDown, 
+    #[cfg(target_os = "windows")]
+    GamepadDPadLeft, 
+    #[cfg(target_os = "windows")]
+    GamepadDPadRight, 
+    #[cfg(target_os = "windows")]
+    GamepadDPadUp, 
+    #[cfg(target_os = "windows")]
+    GamepadLeftShoulder, 
+    #[cfg(target_os = "windows")]
+    GamepadLeftThumbstickButton, 
+    #[cfg(target_os = "windows")]
+    GamepadLeftThumbstickDown, 
+    #[cfg(target_os = "windows")]
+    GamepadLeftThumbstickLeft, 
+    #[cfg(target_os = "windows")]
+    GamepadLeftThumbstickRight, 
+    #[cfg(target_os = "windows")]
+    GamepadLeftThumbstickUp, 
+    #[cfg(target_os = "windows")]
+    GamepadLeftTrigger, 
+    #[cfg(target_os = "windows")]
+    GamepadMenu, 
+    #[cfg(target_os = "windows")]
+    GamepadRightShoulder, 
+    #[cfg(target_os = "windows")]
+    GamepadRightThumbstickButton,
+    #[cfg(target_os = "windows")]
+    GamepadRightThumbstickDown,
+    #[cfg(target_os = "windows")]
+    GamepadRightThumbstickLeft, 
+    #[cfg(target_os = "windows")]
+    GamepadRightThumbstickRight, 
+    #[cfg(target_os = "windows")]
+    GamepadRightThumbstickUp, 
+    #[cfg(target_os = "windows")]
+    GamepadRightTrigger, 
+    #[cfg(target_os = "windows")]
+    GamepadView, 
+    #[cfg(target_os = "windows")]
+    GamepadX,
+    #[cfg(target_os = "windows")]
+    GamepadY, 
 }
 
 #[cfg(not(target_os = "macos"))]
